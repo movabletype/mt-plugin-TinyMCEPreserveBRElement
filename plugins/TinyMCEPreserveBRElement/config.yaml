@@ -1,0 +1,15 @@
+id: TinyMCEPreserveBRElement
+name: TinyMCEPreserveBRElement
+version: 1.00
+author_link: http://www.movabletype.org/
+author_name: Six Apart, Ltd.
+description: <MT_TRANS phrase='Disable the remove_trailing_brs feature of the TinyMCE.'>
+
+l10n_lexicon:
+  ja:
+    Disable the remove_trailing_brs feature of the TinyMCE.: "TinyMCEのremove_trailing_brsオプションを無効にします。"
+
+editors:
+  tinymce:
+    config:
+      remove_trailing_brs: ~
