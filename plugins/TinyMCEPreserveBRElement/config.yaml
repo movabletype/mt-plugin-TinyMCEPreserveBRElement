@@ -1,6 +1,6 @@
 id: TinyMCEPreserveBRElement
 name: TinyMCEPreserveBRElement
-version: 1.00
+version: 1.01
 author_link: http://www.movabletype.org/
 author_name: Six Apart, Ltd.
 description: <MT_TRANS phrase='Disable the remove_trailing_brs feature of the TinyMCE.'>
@@ -11,5 +11,4 @@ l10n_lexicon:
 
 editors:
   tinymce:
-    config:
-      remove_trailing_brs: ~
+    extension: extension.tmpl
